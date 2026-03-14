@@ -38,12 +38,12 @@
     .row
       .col-12
         .p-5
-          .row.align-items-center.bg-12
+          .row.align-items-center.bg-3
             .col-lg-4.d-lg-block.d-none
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/4.png',  style='width: 396px').m-auto
     
-            .col-lg-8
+            .col-lg-8.p-2
               SlyderF(columnas="col-lg-6 col-xl-4")
                 .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3

@@ -3,8 +3,8 @@ export default {
     Name: 'Formulación y estructuración del proyecto',
     Description:
       'El componente formativo desarrolla los fundamentos conceptuales y técnicos para la formulación y estructuración de proyectos empresariales. A partir del análisis de necesidades, la aplicación de metodologías de investigación y la realización de estudios de mercado, técnicos y financieros, se orienta la transformación de una idea en una propuesta organizada, cuantificada y sustentada, que sirva como base para su evaluación y toma de decisiones.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
