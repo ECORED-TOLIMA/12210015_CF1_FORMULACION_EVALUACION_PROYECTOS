@@ -4,11 +4,12 @@
     position: absolute
     top: 20%
     right: 10%
+    width: 17%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 61%
+    right: 85%
 
 @keyframes float1
   0%
@@ -23,10 +24,255 @@
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+//-----------------------------ESTILOS BASE PARA LOS SNIPPETS -------------------------------//
+/*CADA VEZ QUE SE HACE PULL PARA ACTUALIZAR LOS SNIPPETS SE DEBE VALIDAR QUE CUENTE CON LOS ESTILOS BASE */
+/*SIEMPRE SE DEBEN AGREGAR LOS ESTILOS DESDE ACA HASTA LA PARTE DE ABAJO QUE DICE FIN DE ESTILOS BASE */
+
+.bg
+  &-base 
+    background-color: $color-primario !important
+    
+  &-base2
+    background-color: #FEEEB6
+  &-base2:hover
+     background-color: #FDF4FF !important
+
+  &-base3
+    background-color: #FFFFFF
+
+  &-r8
+    border-radius: 8px
+  &-1
+    background-image: url(../assets/curso/temas/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-2 
+    background-color: #b0d8ad !important
+  &-3
+    background-image: url(../assets/curso/temas/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -6.2rem !important
+  &-4
+    background-image: url(../assets/curso/temas/bg1.png)
+    background-repeat: no-repeat
+
+    @media (max-width: 768px) 
+      background-image: none
+      background-color: #F8DFFF
+
+  
+.titulo-tres
+  margin-bottom: 1.5rem
+  h3
+    margin-left: 3rem
+    margin-right: 1rem
+    margin-bottom: 0
+  background-color: #A4C2FF
+  display: inline-block
+  padding: 0.5rem 1rem
+  border-radius: 0.5rem
+  position: relative
+  &::before
+    content: url('../assets/curso/temas/icon.svg')
+    position: absolute
+    top: 2px
+    left: 0
+    transform: translate(-10%, -15%)
+    width: 57px
+
+
+.lista-ul li
+  display: flex
+  align-items: flex-start
+  gap: 3px
+
+.lista-ul__vineta
+  flex: 0 0 auto
+  margin-top: 2px
+
+.lista-ul li p
+  margin: 0
+
+.tabs-b__tab 
+  background-color: #FFF7E2
+
+.tabs-b__tab--active 
+  background-color: transparent
+
+
+  ///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #FCC510
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #FCC510
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #C7B622 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: white
+
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #000
+   font-size: 16px
+   @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
+
+//-------- Icono Imagen ----------///
+
+.icono-img
+  position: relative
+  width: 10px
+  height: 9px
+  flex-shrink: 0
+  margin-right: 10px
+  margin-top: 6px
+
+.icono-img::before 
+  content: ''
+  position: absolute
+  background-image: url('../assets/curso/temas/icon1.svg')
+  background-size: contain
+  background-repeat: no-repeat
+  width: 15px
+  height: 14px
+  left: 0
+  top: 50%
+  transform: translateY(-50%)
+
+
+  ///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #FCC510
+
+.acordion__accion__btn--a
+  background-color: #FCC510 !important
+
+.acordion__activo
+  background-color: #F8DFFF !important
+  color: black !important
+  h3
+    color: black !important
+  
+.acordion__titulo
+  h3
+    color: black 
+
+////////////////
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: white !important
+  
+.tarjeta--boton 
+  background-color: #FCC510
+
+.lista-ul--color li > i:first-of-type 
+    color: black
+
+
+.m-30
+  margin-top: -30px
+
+.slyder-f__btn i 
+  color: #FCC510
+
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+    color: black
+
+.lista-ol--cuadro li 
+  display: flex
+  align-items: flex-start
+
+.lista-ol--cuadro__vineta 
+  margin-right: 12px
+  flex-shrink: 0
+
+.lista-ol--cuadro .contenido 
+  flex: 1;
+
+.tarjeta-avatar 
+  text-align: center
+
+.tarjeta-avatar img 
+  display: inline-block
+  max-width: 100%
+
+.tabs-c__tab 
+  background-color: #FFF7E2 !important
+
+///cajones de color
+.cajon.color1:before
+  background-color: #FFF5C1
+.cajon.color1
+  background-color: #FFFBE6
+
+.cajon.color2:before
+  background-color: #004B84
+.cajon.color2
+  background-color: #CCDBE6
+
+.cajon.color3:before
+  background-color: #004B84
+.cajon.color3
+  background-color: #C2EBF9
+
+/*-----------------------------FIN DE ESTILOS BASE -------------------------------*/
+
+
+.bg
+  &-01 
+    background-color: #E5ECF2
+  &-11 
+    background-color: #CCDBE6
+  &-12
+    background-image: url(../assets/curso/tema1/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -6.2rem !important
