@@ -109,6 +109,26 @@ figcaption
     transform: translate(-10%, -15%)
     width: 57px
 
+.titulo-cuatro
+  margin-bottom: 1rem
+  h4
+    margin-left: 1rem
+    margin-right: 1rem
+    margin-bottom: 0
+    margin-top: -1rem
+  display: inline-block
+  padding: 0.5rem 1rem
+  border-radius: 0.5rem
+  position: relative
+  &::before
+    content: url('../assets/curso/temas/icon1.svg')
+    position: absolute
+    top: -5px
+    left: 0
+    transform: translate(-10%, -15%)
+    width: 80px
+
+
 
 .lista-ul li
   display: flex
@@ -319,6 +339,8 @@ figcaption
     background-color: #FFD4E7
   &-14
     background-color: #C2EBF9
+  &-15
+    background-color: #002D4F
 
 //Bloque de texto C con comillas de cierre
 .bloque-texto-c
@@ -443,3 +465,62 @@ figcaption
       background-color: #C3C2D8
       div
         color: textColor(#C3C2D8)
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(248, 255, 223, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//Custom Podcast
+
+.tarjeta-audio.color-acento-botones .audio__btn
+  background-color: #FE93C4 !important
+
+.tarjeta-audio.color-acento-botones
+  background-color: #F8FFDF !important 
+  border: 2px solid #FE93C4 !important
+  border-radius: 15px !important // Hace que sea rectangular con puntas suavizadas
+  padding: 1rem
+
+  // Título del audio (Podcast Instruccional)
+  .tarjeta-audio__texto 
+    h5, span 
+      color: #12263F !important
+      font-weight: 900
+
+  .tarjeta-audio__input
+    background-color: #FE93C4 !important
+
+    i 
+      color: white !important
+
+  // Barra de progreso y punto de avance
+  .audio__timeline__bar
+    background-color: #D2F45E !important // Fondo verde limón de la barra inactiva
+    
+    &__active
+      background-color: #FE93C4 !important
+    
+    &__dot
+      background-color: #FE93C4 !important
+
+  .audio__time
+    color: #12263F !important
