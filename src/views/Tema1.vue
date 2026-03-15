@@ -173,40 +173,54 @@
                     figure.m-0.p-0.w-100.h-100.d-flex
                       img(src='@/assets/curso/tema1/17.png', alt='', class="w-100 h-100 object-fit-cover")
 
+    p.mt-4 En coherencia con el desarrollo conceptual previo, se presentan las #[b tipologías de los proyectos] como un criterio de clasificación que amplía la comprensión de su naturaleza y propósito. En el campo de las finanzas y la administración, esta organización facilita el análisis técnico y estratégico durante el proceso de formulación y evaluación.
 
     .row.bg-5
       .col-12
         .p-5
           .row.align-items-center.p-5
-            LineaTiempoC.color-acento-contenido.bg-base3.bg-r8.p-5(text-small)
-              .row(titulo="")
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema1/18.png', alt='')
-                .col-md-6.mb-4.mb-md-0.mt-3
-                  h4 Tipología según finalidad
-                  p Se refiere a la clasificación de los proyectos de acuerdo con el propósito que persiguen. En este sentido, pueden identificarse proyectos productivos, sociales, de inversión o de investigación, según la intención central que orienta su desarrollo. Esta tipología permite reconocer si la iniciativa busca generar bienes o servicios, atender necesidades colectivas, obtener rentabilidad económica o producir conocimiento para la toma de decisiones. Por lo tanto, contribuye a precisar el enfoque del proyecto desde su concepción.
-              .row(titulo="")
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema1/19.png', alt='')
-                .col-md-6.mb-4.mb-md-0.mt-3
-                  h4 Tipología según sector económico
-                  p Corresponde a la clasificación que se realiza según el sector en el cual se desarrolla la actividad. De esta manera, los proyectos pueden ubicarse en el sector industrial, comercial, de servicios o agropecuario, dependiendo de la naturaleza de las operaciones que involucran. Esta distinción facilita contextualizar la iniciativa dentro de la dinámica económica correspondiente y orientar los estudios técnicos y financieros requeridos.
-              .row(titulo="")
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema1/20.png', alt='')
-                .col-md-6.mb-4.mb-md-0.mt-3
-                  h4 Tipología según alcance geográfico
-                  p Hace referencia al área de influencia en la que se proyecta el impacto de la intervención. En consecuencia, los proyectos pueden clasificarse como locales, regionales, nacionales o internacionales, según la cobertura territorial prevista. Esta categoría permite dimensionar la magnitud de la propuesta, estimar los recursos necesarios y proyectar el impacto esperado en términos organizacionales y financieros.
-              .row(titulo="")
-                .col-md-6
-                  figure
-                    img(src='@/assets/curso/tema1/21.png', alt='')
-                .col-md-6.mb-4.mb-md-0.mt-3
-                  h4 Tipología según objetivo estratégico
-                  p Se relaciona con el tipo de transformación que la iniciativa genera dentro de la organización. Así, los proyectos pueden orientarse a la expansión, modernización, sustitución o innovación, de acuerdo con el impacto estratégico que buscan alcanzar. Esta clasificación resulta clave, ya que garantiza la alineación del proyecto con la planeación institucional y fortalece la toma de decisiones en el ámbito administrativo y financiero.
+            .tarjeta.bg-base3.p-4
+              PasosB.color-acento-contenido
+                //-Primer Paso
+                .row(titulo="")
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/tema1/18.png', alt='')
+                    
+                  .col-md-6
+                    h4 Tipología según finalidad
+                    p Se refiere a la clasificación de los proyectos de acuerdo con el propósito que persiguen. En este sentido, pueden identificarse proyectos productivos, sociales, de inversión o de investigación, según la intención central que orienta su desarrollo. Esta tipología permite reconocer si la iniciativa busca generar bienes o servicios, atender necesidades colectivas, obtener rentabilidad económica o producir conocimiento para la toma de decisiones. Por lo tanto, contribuye a precisar el enfoque del proyecto desde su concepción.
+                //-Segundo Paso
+                .row(titulo="")
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/tema1/19.png', alt='')
+                    
+                  .col-md-6
+                    h4 Tipología según sector económico
+                    p Corresponde a la clasificación que se realiza según el sector en el cual se desarrolla la actividad. De esta manera, los proyectos pueden ubicarse en el sector industrial, comercial, de servicios o agropecuario, dependiendo de la naturaleza de las operaciones que involucran. Esta distinción facilita contextualizar la iniciativa dentro de la dinámica económica correspondiente y orientar los estudios técnicos y financieros requeridos.
+              
+                //-Tercer Paso
+                .row(titulo="")
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/tema1/20.png', alt='')
+                    
+                  .col-md-6
+                    h4 Tipología según alcance geográfico
+                    p Hace referencia al área de influencia en la que se proyecta el impacto de la intervención. En consecuencia, los proyectos pueden clasificarse como locales, regionales, nacionales o internacionales, según la cobertura territorial prevista. Esta categoría permite dimensionar la magnitud de la propuesta, estimar los recursos necesarios y proyectar el impacto esperado en términos organizacionales y financieros.
+              
+              
+                //-Cuarto Paso
+                .row(titulo="")
+                  .col-md-6.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/tema1/21.png', alt='')
+                    
+                  .col-md-6
+                    h4 Tipología según objetivo estratégico
+                    p Se relaciona con el tipo de transformación que la iniciativa genera dentro de la organización. Así, los proyectos pueden orientarse a la expansión, modernización, sustitución o innovación, de acuerdo con el impacto estratégico que buscan alcanzar. Esta clasificación resulta clave, ya que garantiza la alineación del proyecto con la planeación institucional y fortalece la toma de decisiones en el ámbito administrativo y financiero.
+ 
 
     .row.align-items-start.mt-4
       .col-lg-1.mb-lg-0.mb-4
@@ -406,24 +420,24 @@
           table
             thead(style="background-color: #FE93C4")
               tr
-                th.w-25 Elemento
+                th(style="width: 200px;") Elemento
                 th Descripción
                 th Ejemplo Aplicado
             tbody
               tr(style="background-color: #F6F6F6")
-                th.w-25 Problema identificado
+                th Problema identificado
                 td Situación que refleja una brecha entre el estado actual y el estado deseado de la empresa.
                 td Disminución de ventas en el último año.
               tr
-                th.w-25 Causa principal
+                th Causa principal
                 td Factores internos o externos que originan el problema.
                 td Falta de estrategia digital y baja diferenciación del producto.
               tr(style="background-color: #F6F6F6")
-                th.w-25 Impacto organizacional
+                th Impacto organizacional
                 td Consecuencias que genera el problema en términos financieros, operativos o estratégicos.
                 td Reducción de utilidades y pérdida de participación de mercado.
               tr
-                th.w-25 Necesidad empresarial
+                th Necesidad empresarial
                 td Requerimiento que debe atenderse para cerrar la brecha identificada.
                 td Implementar un proyecto de modernización comercial y marketing digital.
 

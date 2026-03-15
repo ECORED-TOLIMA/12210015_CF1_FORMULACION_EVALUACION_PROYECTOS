@@ -287,6 +287,11 @@ figcaption
 .cajon.color3
   background-color: #C2EBF9
 
+.cajon.color4:before
+  background-color: #67CCF1
+.cajon.color4
+  background-color: #C2EBF9
+
 /*-----------------------------FIN DE ESTILOS BASE -------------------------------*/
 
 
@@ -295,6 +300,10 @@ figcaption
     background-color: #E5ECF2
   &-02
     background-color: #C3C2D8
+  &-03
+    background-color: #F8FFDF
+  &-03:hover
+    background-color: #C2EBF9 !important
   &-11 
     background-color: #CCDBE6
   &-12
@@ -326,30 +335,104 @@ figcaption
     display: none !important
 
 // Custom para la Línea te tiempo C
-.linea-tiempo-c
-  &.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after  
-    background-color: #000000
-  &.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
-    border-color: #67CCF1 !important
-    
-  // Flechas de navegación
-  .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
-    background-color: #DAFE60 !important // Un verde claro muy suave (basado en la imagen)
-    border: none
-    i
-      color: black !important // Símbolo de flecha en negro
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #DAFE60 !important
+  border: none
 
-  // Item pasado
-  .linea-tiempo-c__header__item--before
-    .linea-tiempo-c__header__item__dot
-      background-color: #67CCF1 !important
-      border-color: #67CCF1 !important
-      i
-        color: black !important
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #67CCF1
+  background-color: #67CCF1
+  i
+    color: black !important
 
-  // Estilo para los ítems NO activos/no avanzados (Fondo blanco, borde gris)
-  .linea-tiempo-c__header__item__dot
-    background-color: white
-    border: 2px solid #144567
-    span
-      color: black
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+  border-color: #DAFE60
+  background-color: #DAFE60
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.pasos-b__header__item__dot
+  border: 3px solid #144567
+
+
+// Custom PasosA
+.pasos-a__linea__esquina__linea
+  border: 3px solid
+  width: 100%
+  position: relative
+  border-radius: 0px
+
+// Tarjeta over con cambio de icono
+.icono-hover
+  position: relative
+  width: 80px
+  margin: auto
+
+.icono-hover img
+  width: 80px
+  transition: opacity .3s ease
+
+.icono-hover .icon-hover
+  position: absolute
+  top: 0
+  left: 0
+  opacity: 0
+
+.tarjeta-hover:hover .icon-hover
+  opacity: 1
+
+.tarjeta-hover:hover .icon-normal
+  opacity: 0
+
+//Tarjeta numerada
+.tarjeta-numerada
+  border: solid 2px
+  border-radius: 20px
+  position: relative
+  margin-left: 30px
+  &__numero
+    border-radius: 60px
+    width: 60px
+    height: 60px
+    display: inline-block
+    position: absolute  
+    left: 0
+    top: 25px
+    transform: translateX(-50%)
+    div
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+
+  &.color-primario
+    border-color: $color-primario
+    .tarjeta-numerada__numero
+      background-color: $color-primario
+      div
+        color: textColor($color-primario)
+  &.color-secundario
+    border-color: $color-secundario
+    .tarjeta-numerada__numero
+      background-color: $color-secundario
+      div
+        color: textColor($color-secundario)
+  &.color-acento-contenido
+    border-color: $color-acento-contenido
+    .tarjeta-numerada__numero
+      background-color: $color-acento-contenido
+      div
+        color: textColor($color-acento-contenido)
+  &.color-acento-botones
+    border-color: #C3C2D8
+    .tarjeta-numerada__numero
+      background-color: #C3C2D8
+      div
+        color: textColor(#C3C2D8)

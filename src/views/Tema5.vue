@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Tema 3
+      h1 Estudio técnico y organizacional
 
 </template>
 

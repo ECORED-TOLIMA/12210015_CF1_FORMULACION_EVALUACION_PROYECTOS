@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
-      h1 Tema 3
+      h1 Estudio financiero del proyecto
 
 </template>
 
