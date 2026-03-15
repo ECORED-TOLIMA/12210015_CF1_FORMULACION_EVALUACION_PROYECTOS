@@ -23,18 +23,18 @@
         p(data-aos="fade-down") En primer lugar, se identifican las inversiones requeridas, las cuales pueden incluir activos fijos, activos diferidos y capital de trabajo. Estas inversiones constituyen el monto inicial necesario para poner en marcha el proyecto. Posteriormente, se estiman los ingresos proyectados a partir de las ventas esperadas y se calculan los costos y gastos operativos asociados al funcionamiento del negocio. Esta información permite construir presupuestos financieros que reflejan la dinámica económica del proyecto.
 
         .row.justify-content-center
-          .col-lg-10
+          .col-lg-12
             .row.align-items-center
               .col-lg-12
                 .cajon.color3.p-4
-                  p background con la esquina coloreada (Se deben agregar los estilos base)
+                  p Para comprender cómo se proyecta la viabilidad económica del proyecto, es necesario analizar los principales instrumentos financieros que permiten estimar resultados y evaluar la sostenibilidad en el tiempo. A continuación, se presentan los estados financieros proyectados más relevantes y su función dentro del proceso de toma de decisiones.
 
       .col-lg-5.d-lg-block.d-none
         figure(data-aos="fade-down")  
           img(src='@/assets/curso/tema6/3.png', style='width: 100%').m-auto
 
 
-    .row.bg-5
+    .row.bg-5.mt-4
       .col-12
         .p-5
           .row.align-items-center.p-5
@@ -99,7 +99,7 @@
           .col-lg-10
             .row.align-items-center
               .col-lg-12
-                .cajon.color3.p-4
+                .cajon.color2.p-4
                   p Finalmente, el análisis financiero permite establecer indicadores que apoyan la decisión de inversión, como el punto de equilibrio, que determina el nivel mínimo de ventas necesario para cubrir costos, y otros indicadores que se desarrollarán en el componente de evaluación. En consecuencia, el estudio financiero no solo cuantifica la inversión y los resultados esperados, sino que también constituye la base para determinar si el proyecto es rentable y financieramente sostenible.
 
     separador
@@ -108,19 +108,24 @@
 
     p El presupuesto de inversiones permite identificar y cuantificar los recursos financieros necesarios para poner en marcha el proyecto. Estas inversiones pueden clasificarse en activos fijos, como maquinaria, equipos e infraestructura; activos diferidos, relacionados con gastos de constitución, estudios previos o licencias; y capital de trabajo, que corresponde a los recursos requeridos para cubrir los costos operativos iniciales mientras el proyecto comienza a generar ingresos. Una estimación adecuada de estas inversiones es fundamental para evitar subvaloraciones que puedan afectar la ejecución del proyecto.
 
-    .row.justify-content-center.align-items-center.mt-4           
+    .row.justify-content-center.align-items-center.mt-4     
+
+      .col-lg-4.d-lg-block.d-none
+        figure(data-aos="fade-down")  
+          img(src='@/assets/curso/tema6/8.png', style='width: 396px').m-auto      
       .col-lg-6
         p La elaboración del presupuesto de inversiones debe estar respaldada por el estudio técnico y organizacional, ya que de allí se determinan los requerimientos reales de infraestructura, tecnología y personal. Cada partida debe justificarse técnicamente y expresarse en valores monetarios actualizados. Este proceso permite consolidar el monto total de inversión inicial y establecer el punto de partida para el análisis financiero. Una correcta planificación de la inversión reduce el riesgo de sobrecostos y mejora la organización financiera del proyecto.
 
         .row.justify-content-center
-          .col-lg-4.d-lg-block.d-none
-            figure(data-aos="fade-down")  
-              img(src='@/assets/curso/tema6/8.png', style='width: 396px').m-auto
-          .col-lg-6
+          .col-lg-12
             .row.align-items-center
               .col-lg-12
                 .cajon.color3.p-4
                   p Una vez definido el presupuesto de inversiones, es necesario establecer el origen de los recursos que permitirán financiar el proyecto. Para ello, se identifican las principales fuentes de financiación, las cuales inciden en la estructura financiera y en el nivel de riesgo asumido.
+
+
+      
+
 </template>
 
 <script>
