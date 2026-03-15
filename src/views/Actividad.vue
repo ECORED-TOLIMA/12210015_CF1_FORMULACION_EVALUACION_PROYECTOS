@@ -17,39 +17,33 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario sobre formulación y estructuración del proyecto',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> comprobar el nivel de apropiación de los fundamentos conceptuales y metodológicos de la formulación y estructuración de proyectos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'Opción a)\tSe ejecuta de manera permanente.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Tiene carácter temporal y resultado único.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'No requiere planificación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
+              texto: 'No involucra recursos financieros.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +52,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'La identificación de necesidades empresariales permite:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Calcular la TIR.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Justificar técnicamente el proyecto.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Elaborar el flujo de caja.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Determinar el punto de equilibrio.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +82,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'La fase del ciclo de vida donde se analizan indicadores como VPN y TIR es:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Identificación.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecución.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Evaluación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Seguimiento.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +113,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La investigación exploratoria se utiliza cuando:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El problema está completamente definido.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Se busca medir rentabilidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Existe poca claridad sobre la situación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Se realiza el flujo de caja.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +143,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Una encuesta es una herramienta de:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Análisis financiero.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Recolección de información.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ingeniería del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Control presupuestal.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +173,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El análisis del entorno permite identificar:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Utilidades proyectadas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Riesgos y oportunidades.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Punto de equilibrio.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Flujo de caja.',
               esCorrecta: false,
             },
           ],
@@ -211,30 +203,29 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'La población objetivo hace referencia a:',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Todos los habitantes del país.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Los empleados de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Los inversionistas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'El segmento específico al que se dirige el proyecto.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -242,29 +233,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: 'La prefactibilidad permite:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Decidir preliminarmente si el proyecto continúa.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Determinar la TIR definitiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Elaborar estados financieros históricos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ejecutar el proyecto.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +263,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'El análisis de demanda permite:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Determinar costos fijos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Proyectar ventas.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Calcular impuestos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Establecer estructura legal.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +293,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'El marketing mix está compuesto por:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Precio, utilidad, inversión y riesgo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Producto, precio, promoción y plaza.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Costos, gastos, ingresos y flujo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Oferta, demanda, inflación y tasa.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +323,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El tamaño del proyecto está relacionado con:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Capacidad productiva.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Figura jurídica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tasa de descuento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Rentabilidad financiera.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +353,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La ingeniería del proyecto define:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Estrategias de promoción.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Proceso productivo y tecnología.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Estructura de capital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nivel de endeudamiento.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +383,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'El capital de trabajo corresponde a:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Activos fijos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los recursos para cubrir la operación inicial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Utilidades retenidas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dividendos.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +413,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Los costos variables se caracterizan por:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Permanecer constantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Variar según el nivel de producción.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No afectar el precio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ser exclusivamente administrativos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +443,178 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El punto de equilibrio indica:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Rentabilidad total.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Nivel mínimo de ventas para no perder.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Utilidad máxima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Valor presente neto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'El flujo de caja proyectado permite evaluar:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo utilidades contables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Liquidez del proyecto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Estructura organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Segmentación del mercado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'Una S.A.S. se caracteriza por:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Responsabilidad ilimitada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Flexibilidad y responsabilidad limitada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ser exclusiva para multinacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No requerir registro.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: 'El análisis de oferta permite:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Identificar competidores.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Calcular depreciación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estimar punto de equilibrio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar capital de trabajo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: 'El cronograma del proyecto permite:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Estimar utilidades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organizar actividades en el tiempo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Definir precio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar estructura legal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: 'El estudio financiero integra información de:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo Mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mercado y técnico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mercado, técnico y organizacional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solo contabilidad.',
               esCorrecta: false,
             },
           ],
