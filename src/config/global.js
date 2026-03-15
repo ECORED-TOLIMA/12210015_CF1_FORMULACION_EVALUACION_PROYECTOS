@@ -169,24 +169,6 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema6',
-        numero: '6',
-        titulo: 'Tema 6',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {

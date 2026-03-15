@@ -22,7 +22,7 @@
       .col-lg-7
         p(data-aos="fade-down") En primer lugar, se identifican las inversiones requeridas, las cuales pueden incluir activos fijos, activos diferidos y capital de trabajo. Estas inversiones constituyen el monto inicial necesario para poner en marcha el proyecto. Posteriormente, se estiman los ingresos proyectados a partir de las ventas esperadas y se calculan los costos y gastos operativos asociados al funcionamiento del negocio. Esta información permite construir presupuestos financieros que reflejan la dinámica económica del proyecto.
 
-        ..row.justify-content-center
+        .row.justify-content-center
           .col-lg-10
             .row.align-items-center
               .col-lg-12
