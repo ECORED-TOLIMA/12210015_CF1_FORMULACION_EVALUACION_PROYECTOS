@@ -304,7 +304,7 @@
           h4.text-white Identificación
           p.text-white Es la fase inicial del proyecto, en la que se reconoce la necesidad, problema u oportunidad que justifica su formulación. En esta etapa se define la idea inicial y se elabora su justificación preliminar, estableciendo el punto de partida para las fases siguientes.
           
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/28.png', style='width: 572px')
     
@@ -313,7 +313,7 @@
           h4.text-white Formulación
           p.text-white Corresponde a la etapa en la que se estructuran los estudios necesarios para diseñar el proyecto: estudio de mercado, estudio técnico, estudio organizacional y estudio financiero. Es aquí donde se construye el documento base que sustenta técnicamente la iniciativa.
 
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/29.png', style='width: 572px')
     
@@ -322,7 +322,7 @@
           h4.text-white Evaluación
           p.text-white En esta fase se analiza la viabilidad del proyecto desde diferentes perspectivas: financiera, económica, social y ambiental. Para ello se aplican indicadores como el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR) y el Periodo de Recuperación de la Inversión (PRI), entre otros.
           
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/30.png', style='width: 572px')
 
@@ -331,7 +331,7 @@
           h4.text-white Ejecución
           p.text-white Es la fase en la que se implementa el proyecto según el plan establecido. En esta etapa se hace uso de los recursos asignados, se desarrollan las actividades programadas y se realiza el seguimiento al cronograma definido.
 
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/31.png', style='width: 572px')
             
@@ -340,7 +340,7 @@
           h4.text-white Seguimiento y control
           p.text-white.mb-0 Es la fase en la que se monitorea el avance del proyecto frente a las metas establecidas. El seguimiento se realiza sobre cuatro dimensiones fundamentales: presupuesto, tiempo, alcance y calidad. Esta etapa permite identificar desviaciones oportunamente y aplicar los ajustes correctivos necesarios para garantizar el cumplimiento de los objetivos.
 
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/32.png', style='width: 572px')
             
@@ -349,7 +349,7 @@
           h4.text-white Cierre
           p.text-white Corresponde a la etapa en la que se finaliza formalmente el proyecto. En esta fase se realiza la evaluación de resultados, se entregan los productos o servicios generados, se elabora el informe final y se documentan las lecciones aprendidas.
 
-        .col-lg-6
+        .col-lg-6.d-flex.d-none.d-lg-block
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/33.png', style='width: 572px')
 
