@@ -324,7 +324,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-4.mb-lg-0
           h4.text-white Seguimiento y control
-          p.text-white Es la fase en la que se monitorea el avance del proyecto frente a las metas establecidas. El seguimiento se realiza sobre cuatro dimensiones fundamentales: presupuesto, tiempo, alcance y calidad. Esta etapa permite identificar desviaciones oportunamente y aplicar los ajustes correctivos necesarios para garantizar el cumplimiento de los objetivos.
+          p.text-white.mb-0 Es la fase en la que se monitorea el avance del proyecto frente a las metas establecidas. El seguimiento se realiza sobre cuatro dimensiones fundamentales: presupuesto, tiempo, alcance y calidad. Esta etapa permite identificar desviaciones oportunamente y aplicar los ajustes correctivos necesarios para garantizar el cumplimiento de los objetivos.
 
         .col-lg-6
           figure(data-aos="fade-down")
@@ -338,7 +338,96 @@
         .col-lg-6
           figure(data-aos="fade-down")
             img(src='@/assets/curso/tema1/33.png', style='width: 572px')
-            
+
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3. Identificación de necesidades empresariales
+
+    .row.align-items-center.bg-14
+      .col-lg-4.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema1/34.png', alt='', style="width: 420px; margin-left:-13px")
+      .col-lg-8.bg-r8.p-2
+    
+        figure
+          img(src="@/assets/curso/tema1/35.svg", alt="", style="width: 80px")
+    
+        p.mt-3 La identificación de necesidades empresariales constituye el punto de partida para la formulación de un proyecto pertinente y viable. Toda iniciativa debe surgir de una situación real que evidencie una brecha entre el estado actual de la organización y el estado deseado. Estas necesidades pueden manifestarse como problemas operativos, baja rentabilidad, pérdida de participación en el mercado, ineficiencias en los procesos productivos o ausencia de innovación. Reconocer de manera objetiva estas situaciones permite justificar técnicamente la formulación del proyecto y orientar sus objetivos hacia la generación de valor.
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        p.mt-4 Para desarrollar un diagnóstico organizacional sólido, es necesario examinar de manera estructurada los factores internos y externos que inciden en la organización. Este análisis permite comprender la situación actual y establecer una base técnica para la formulación del proyecto. En este contexto, se presentan los siguientes elementos del diagnóstico:
+        .row.justify-content-center
+          SlyderF(columnas="col-lg-6 col-xl-4")
+            .tarjeta.bg-11.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema1/36.svg', alt='').img100.m-auto
+              h4.text-center Análisis del entorno interno
+              p.text-center.mb-0 Examina los recursos, capacidades y estructura organizacional, así como los indicadores financieros y el desempeño operativo. Permite identificar fortalezas y aspectos por mejorar que inciden en la viabilidad del proyecto.
+                    
+            .tarjeta.bg-11.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema1/37.svg', alt='').img100.m-auto
+              h4.text-center Análisis del entorno externo
+              p.text-center.mb-0 Analiza variables económicas, tecnológicas, legales y competitivas que pueden afectar a la organización. Facilita el reconocimiento de oportunidades y amenazas derivadas del contexto en el que se desarrolla la iniciativa.
+
+            .tarjeta.bg-11.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema1/38.svg', alt='').img100.m-auto
+              h4.text-center Herramientas para el diagnóstico
+              p.text-center.mb-0 Integra instrumentos como el análisis DOFA, el análisis de brechas y la revisión de indicadores estratégicos. Estas herramientas permiten organizar la información y estructurar un diagnóstico coherente y fundamentado.
+
+            .tarjeta.bg-11.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tema1/39.svg', alt='').img100.m-auto
+              h4.text-center Fundamentación para la toma de decisiones
+              p.text-center.mb-0 Consolida los resultados del diagnóstico y orienta decisiones estratégicas. Asegura que la formulación del proyecto responda a necesidades reales y se articule con los objetivos institucionales.
+
+    p.mt-4 Una correcta identificación de las necesidades empresariales permite definir con claridad el problema central que el proyecto pretende resolver, establecer objetivos coherentes y delimitar su alcance. Cuando esta etapa se desarrolla con rigor metodológico, se reduce el riesgo de formular proyectos basados en percepciones subjetivas o en decisiones intuitivas. En consecuencia, el proyecto se alinea con la estrategia organizacional, responde a condiciones reales del entorno y aumenta sus probabilidades de viabilidad técnica y financiera.
+    
+    .bloque-texto-g.bloque-texto-g--inverso.bg-11.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/40.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Con el propósito de organizar de manera estructurada los elementos que intervienen en la identificación de necesidades empresariales, se presenta a continuación una tabla que sintetiza los componentes fundamentales del análisis. Esta estructura permite visualizar la relación entre el problema identificado, sus causas, el impacto organizacional y la necesidad que debe atenderse para cerrar la brecha detectada.
+
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3.mt-4
+          h5 Tabla 1.
+          span Identificación de necesidades empresariales
+
+        .tabla-a.color-acento-contenido
+          table
+            thead(style="background-color: #FE93C4")
+              tr
+                th.w-25 Elemento
+                th Descripción
+                th Ejemplo Aplicado
+            tbody
+              tr(style="background-color: #F6F6F6")
+                th.w-25 Problema identificado
+                td Situación que refleja una brecha entre el estado actual y el estado deseado de la empresa.
+                td Disminución de ventas en el último año.
+              tr
+                th.w-25 Causa principal
+                td Factores internos o externos que originan el problema.
+                td Falta de estrategia digital y baja diferenciación del producto.
+              tr(style="background-color: #F6F6F6")
+                th.w-25 Impacto organizacional
+                td Consecuencias que genera el problema en términos financieros, operativos o estratégicos.
+                td Reducción de utilidades y pérdida de participación de mercado.
+              tr
+                th.w-25 Necesidad empresarial
+                td Requerimiento que debe atenderse para cerrar la brecha identificada.
+                td Implementar un proyecto de modernización comercial y marketing digital.
+
+        
 
 </template>
 
