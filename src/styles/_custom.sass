@@ -72,12 +72,22 @@ figcaption
     background-size: cover
     margin-inline: -6.2rem !important
   &-4
-    background-image: url(../assets/curso/temas/bg1.png)
+    background-image: url(../assets/curso/temas/bg3.png)
     background-repeat: no-repeat
 
     @media (max-width: 768px) 
       background-image: none
       background-color: #F8DFFF
+  &-5
+    background-image: url(../assets/curso/temas/bg2.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -6.2rem !important
+  &-6
+    background-image: url(../assets/curso/temas/bg4.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -6.2rem !important
 
   
 .titulo-tres
@@ -120,14 +130,19 @@ figcaption
 
 
   ///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b
+  &__tipo-b
+    h4, p
+      color: white !important
+
 .slyder-a__tipo-b .slyder-a__btn--atrs
-  background-color: #FCC510
+  background-color: #DAFE60
   @media screen and (max-width: $bp-max-lg)
     width: 30px
     height: 30px
 
 .slyder-a__tipo-b .slyder-a__btn--sigt
-  background-color: #FCC510
+  background-color: #DAFE60
   @media screen and (max-width: $bp-max-lg)
     width: 30px
     height: 30px
@@ -136,7 +151,7 @@ figcaption
   border: none
 
 .slyder-a__bullets__item--active
-  background-color: #C7B622 !important
+  background-color: #DAFE60 !important
   border: none
 
 .slyder-a__bullets__item
@@ -199,13 +214,13 @@ figcaption
 
   ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
-  background-color: #FCC510
+  background-color: #DAFE60
 
 .acordion__accion__btn--a
-  background-color: #FCC510 !important
+  background-color: #DAFE60 !important
 
 .acordion__activo
-  background-color: #F8DFFF !important
+  background-color: #F8FFDF !important
   color: black !important
   h3
     color: black !important
@@ -278,5 +293,61 @@ figcaption
 .bg
   &-01 
     background-color: #E5ECF2
+  &-02
+    background-color: #C3C2D8
   &-11 
     background-color: #CCDBE6
+  &-12
+    border-left-color: #8CE6FE
+  &-13
+    background-color: #FFD4E7
+
+//Bloque de texto C con comillas de cierre
+.bloque-texto-c
+  // Estilo general para ambas comillas
+  i
+    color: #FF89C0 !important
+    font-size: 2.5em
+
+  // Comilla inicial
+  .fa-quote-left
+    margin-bottom: 10px
+    display: block
+
+  // Comilla final (reemplaza al cuadro)
+  .fa-quote-right
+    margin-top: 10px
+    display: block
+  
+  // Eliminamos el cuadro rosado si estaba por pseudo-elemento
+  &::after
+    display: none !important
+
+// Custom para la Línea te tiempo C
+.linea-tiempo-c
+  &.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after  
+    background-color: #000000
+  &.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+    border-color: #67CCF1 !important
+    
+  // Flechas de navegación
+  .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+    background-color: #DAFE60 !important // Un verde claro muy suave (basado en la imagen)
+    border: none
+    i
+      color: black !important // Símbolo de flecha en negro
+
+  // Item pasado
+  .linea-tiempo-c__header__item--before
+    .linea-tiempo-c__header__item__dot
+      background-color: #67CCF1 !important
+      border-color: #67CCF1 !important
+      i
+        color: black !important
+
+  // Estilo para los ítems NO activos/no avanzados (Fondo blanco, borde gris)
+  .linea-tiempo-c__header__item__dot
+    background-color: white
+    border: 2px solid #144567
+    span
+      color: black
