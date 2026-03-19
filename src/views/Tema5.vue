@@ -14,8 +14,8 @@
 
     .row.bg-6
       .col-12
-        .p-5
-          .row.align-items-center.p-5
+        .px-md-5.py-2
+          .row.align-items-center
             .row.align-items-center.justify-content-center
               .col-lg-10
                 .row.justify-content-center
@@ -27,14 +27,13 @@
                           img(src='@/assets/curso/tema5/2.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                     
                       .col-lg
-                        .row.align-items-start.mt-4
-                          .col
-                            p Por su parte, el estudio organizacional se centra en la estructura administrativa y legal que respaldará el desarrollo del proyecto. En este componente se define el tipo de sociedad o figura jurídica más conveniente, la estructura organizacional, los cargos y funciones del personal, así como las responsabilidades de cada área. 
-                            p Además, se consideran los aspectos normativos y regulatorios que deben cumplirse para su correcto funcionamiento. Una organización claramente definida facilita la distribución de responsabilidades, fortalece la gestión interna y contribuye a la sostenibilidad del proyecto.
-                            
-                            .row.justify-content-center      
-                              .cajon.color4.p-4
-                                p La integración del estudio técnico y organizacional garantiza que el proyecto no solo sea comercialmente atractivo, sino también viable en su ejecución. Además, asegura la coherencia entre los recursos disponibles, los procesos definidos y la estructura organizacional. De esta manera, se fortalece su sostenibilidad operativa y financiera.
+
+                        p Por su parte, el estudio organizacional se centra en la estructura administrativa y legal que respaldará el desarrollo del proyecto. En este componente se define el tipo de sociedad o figura jurídica más conveniente, la estructura organizacional, los cargos y funciones del personal, así como las responsabilidades de cada área. 
+                        p Además, se consideran los aspectos normativos y regulatorios que deben cumplirse para su correcto funcionamiento. Una organización claramente definida facilita la distribución de responsabilidades, fortalece la gestión interna y contribuye a la sostenibilidad del proyecto.
+                        
+                        .row.justify-content-center      
+                          .cajon.color4.p-4
+                            p La integración del estudio técnico y organizacional garantiza que el proyecto no solo sea comercialmente atractivo, sino también viable en su ejecución. Además, asegura la coherencia entre los recursos disponibles, los procesos definidos y la estructura organizacional. De esta manera, se fortalece su sostenibilidad operativa y financiera.
 
                       p.mt-4 Mientras el componente técnico responde a la pregunta de #[b cómo producir], el componente organizacional responde #[b a quién] y bajo #[b qué estructura] lo hará. Ambos elementos son fundamentales para calcular con precisión las inversiones necesarias, los costos operativos y los recursos humanos requeridos, sirviendo de base para el posterior análisis financiero del proyecto.
  
@@ -125,7 +124,7 @@
             .cajon.color2.p-4
               p Con el fin de comprender de manera estructurada cómo se organiza el proceso productivo, se presenta a continuación su ciclo operativo. Esta representación permite visualizar las etapas desde la definición de fases y asignación de recursos hasta la optimización y el cumplimiento de las expectativas del cliente.
         .titulo-sexto.bg-12.mb-3.mt-4
-          h5 Figura 5.
+          h5 Figura 4.
           span Ciclo del proceso productivo
         figure
           img.d-none.d-md-block.m-auto(

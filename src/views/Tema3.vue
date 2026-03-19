@@ -10,10 +10,10 @@
     figure
       img(src='@/assets/curso/tema3/1.png', alt='', style="width: 1226px").m-auto
     
-    .row.bg-6
-      .col-12
-        .p-5
-          .row.align-items-center.p-5
+    .row.bg-7.justify-content-center.p-0
+      .col-lg-11.col-12
+        .p-4.p-md-5
+          .row.align-items-center.mb-4
             .row.align-items-center.justify-content-center
               .col-lg-12
                 .row.justify-content-center
@@ -31,7 +31,7 @@
                           .col
                             p Asimismo, la delimitación de la cobertura, la población objetivo y el área de influencia permite definir con mayor precisión el alcance de la iniciativa. Establecer a quién se dirige el producto o servicio y determinar el espacio geográfico donde operará facilita dimensionar el mercado potencial y realizar proyecciones más ajustadas a la realidad. De esta manera, se evitan sobreestimaciones y se fortalece la coherencia entre la capacidad operativa y las metas comerciales previstas.
                             .row.justify-content-center      
-                              .cajon.color4.p-4
+                              .cajon.color4.py-4
                                 p El cronograma y el estado de prefactibilidad consolidan la fase preliminar de la iniciativa, ya que permiten organizar y evaluar de manera estructurada los aspectos iniciales del proceso.
                                     
                       .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -41,7 +41,7 @@
         .row.align-items-center
           .row.align-items-center.justify-content-center
             .col-lg-10
-              p.mt-4 Por un lado, el cronograma distribuye las actividades en el tiempo, define responsables y facilita la planificación ordenada de los recursos. De este modo, se garantiza una ejecución coherente y alineada con los objetivos planteados desde la etapa inicial.
+              p Por un lado, el cronograma distribuye las actividades en el tiempo, define responsables y facilita la planificación ordenada de los recursos. De este modo, se garantiza una ejecución coherente y alineada con los objetivos planteados desde la etapa inicial.
 
         .row.align-items-center
           .row.align-items-center.justify-content-center
@@ -283,23 +283,23 @@
           table
             thead(style="background-color: #FE93C4")
               tr
-                th(style="width: 150px;") Concepto
+                th(style="width: 150px;") #[b Concepto]
                 th ¿Qué es?
                 th Nivel de profundidad del estudio
                 th ¿Qué decisión permite tomar?
             tbody
               tr(style="background-color: #F6F6F6")
-                th Prefactibilidad
+                th #[b Prefactibilidad]
                 td Evaluación preliminar del proyecto para determinar si vale la pena continuar con estudios más detallados
                 td Bajo: análisis general con información estimada
                 td Decidir si el proyecto continúa a estudio de factibilidad o se descarta
               tr
-                th Factibilidad
+                th #[b Factibilidad]
                 td Estudio detallado técnico, financiero, económico y organizacional del proyecto
                 td Medio alto: análisis estructurado con datos más precisos
                 td Determinar si el proyecto es técnica y financieramente posible
               tr(style="background-color: #F6F6F6")
-                th Viabilidad
+                th #[b Viabilidad]
                 td Condición que indica que el proyecto puede ejecutarse con probabilidad razonable de éxito
                 td Conclusión del estudio de factibilidad
                 td Tomar la decisión final de invertir o implementar el proyecto     

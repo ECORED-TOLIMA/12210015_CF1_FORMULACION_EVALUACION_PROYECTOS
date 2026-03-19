@@ -89,12 +89,12 @@
 
                     p Proceso de estimación que reduce la incertidumbre y orienta decisiones de inversión y sostenibilidad.
 
-                    p #[b Ejemplo:] Ejemplo: analizar distintos escenarios de ventas para determinar si el proyecto puede mantenerse en condiciones económicas variables.
+                    p #[b Ejemplo:] analizar distintos escenarios de ventas para determinar si el proyecto puede mantenerse en condiciones económicas variables.
 
 
 
     .row.justify-content-center.align-items-center.mt-4           
-      .col-lg-10
+      .col-lg-12
         .row.justify-content-center
           .col-lg-10
             .row.align-items-center
@@ -236,6 +236,8 @@
     .row.justify-content-center.mt-4
       .col-lg-10
         .titulo-tres: h3 Costos y gastos del proyecto
+        p En el estudio financiero es fundamental identificar y diferenciar los costos y los gastos que intervienen en el funcionamiento del proyecto. Esta clasificación permite calcular la rentabilidad, determinar el punto de equilibrio y valorar su sostenibilidad económica. A continuación, se presentan los principales elementos:
+      .col-lg-12
         .row.justify-content-center
           SlyderF(columnas="col-lg-6 col-xl-4")
             //-Tarjeta 1
@@ -445,6 +447,7 @@
               p El estado de resultados proyectado permite analizar si el proyecto generará utilidades o pérdidas a partir de la relación entre ingresos, costos y gastos estimados, ofreciendo una visión clara de su rentabilidad
 
     .row.align-items-center.justify-content-center
+      p.mt-4 Un elemento clave dentro del análisis financiero es el #[b punto de equilibrio], que representa el nivel mínimo de ventas necesario para cubrir todos los costos y gastos del proyecto sin generar pérdidas ni utilidades. Este indicador permite determinar cuántas unidades deben venderse o cuánto ingreso debe generarse para alcanzar estabilidad financiera. Conocer el punto de equilibrio facilita la toma de decisiones estratégicas, como ajustes en precios, reducción de costos o definición de metas comerciales.
       .col-lg-12
         .row.justify-content-center.mt-4
           .col-lg-12(data-aos="fade-down")
@@ -482,10 +485,10 @@
             .row.align-items-start.mt-4
               .col-lg-2.mb-lg-0.mb-4
                 figure(data-aos="fade-down")
-                  img(src='@/assets/curso/tema6/26.svg', style='width: 100px').m-auto
+                  img(src='@/assets/curso/tema6/26.svg', style='width: 100px')
               
               .col
-                ul.lista-ul--color
+                ul.lista-ul--color(style='margin-left: -2rem')
                   li.d-flex.align-items-start
                     span.icono-img
                     p.mb-0 El precio por cada servicio es de #[b $300.000].
@@ -498,16 +501,15 @@
                     span.icono-img
                     p.mb-0 Los costos fijos mensuales ascienden a #[b $6.000.000], correspondientes a arriendo, nómina administrativa y servicios.
 
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                .row.justify-content-center.mt-4
-                  .col-lg-12(data-aos="fade-down")
-                    .row.d-flex.align-items-center.bg-01(data-aos="fade-right")
-                      .col-lg-1.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                        figure.m-0.p-0.w-100.h-100.d-flex
-                          img(src='@/assets/curso/tema6/27.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-11px")
-                      .col-lg
-                        p Con esta información, es posible aplicar la fórmula del punto de equilibrio para calcular el número mínimo de servicios que deben venderse en el mes.
+
+              .row.align-items-start.mt-4
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-center.bg-01(data-aos="fade-right")
+                    .col-lg-1.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex
+                        img(src='@/assets/curso/tema6/27.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-11px")
+                    .col-lg
+                      p Con esta información, es posible aplicar la fórmula del punto de equilibrio para calcular el número mínimo de servicios que deben venderse en el mes.
 
             .row.align-items-center.justify-content-center
               .col-lg-12

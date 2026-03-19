@@ -159,9 +159,9 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2. Herramientas de recolección y análisis de información
 
-    .row.align-items-center.justify-content-center
+    .row.align-items-center.justify-content-center.mb-2
       .col-lg-12
-        .row.justify-content-center.mt-4
+        .row.justify-content-center.mt-1.mb-4
           .col-lg-12(data-aos="fade-down")
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -215,10 +215,10 @@
     p.mt-4 Cada herramienta cumple una función específica dentro del proceso investigativo y debe seleccionarse de acuerdo con el tipo de investigación que se esté desarrollando y con los objetivos definidos en la formulación. De esta manera, se garantiza coherencia metodológica y pertinencia en la información recopilada.
 
 
-    .row.bg-6
-      .col-12
-        .p-5
-          .row.align-items-center.p-5
+    .row.bg-7.justify-content-center.py-4.px-0.px-md-5
+      .col-lg-11.col-12
+        .p-4.p-md-5
+          .row.align-items-center.p
             .row.align-items-center.justify-content-center
               .col-lg-10
                 .row.justify-content-center
@@ -227,7 +227,7 @@
                       .row.justify-content-center
                         .col-lg-12(data-aos="fade-down")
                           .row.d-flex.align-items-center(data-aos="fade-right")
-                            .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                            .col-lg-5.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                               figure.m-0.p-0.w-100.h-100.d-flex
                                 img(src='@/assets/curso/tema2/16.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                             .col-lg
