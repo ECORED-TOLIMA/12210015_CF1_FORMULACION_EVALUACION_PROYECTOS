@@ -231,33 +231,35 @@
         p De esta manera, las tipologías analizadas se articulan con las características propias del proyecto, tales como su temporalidad, alcance definido, utilización de recursos limitados y orientación hacia resultados específicos. Mientras las características permiten reconocer su estructura y naturaleza, las tipologías facilitan comprender su propósito, contexto y proyección estratégica dentro de la organización. En el campo de las finanzas y la administración, esta integración conceptual fortalece la formulación técnica, el análisis de viabilidad y la alineación con la planeación institucional, asegurando que cada iniciativa responda de manera coherente a las necesidades y objetivos establecidos.
 
     separador
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido.mb-0
       h2 1.2. Ciclo de vida del proyecto y partes interesadas
 
-    .row.bg-6
-      .col-12
-        .p-5
-          .row.align-items-center.p-5
-            p.mt-4 El ciclo de vida del proyecto representa la secuencia estructurada de fases que atraviesa una iniciativa desde su concepción hasta su cierre. Generalmente comprende etapas como identificación, formulación, evaluación, ejecución, seguimiento y cierre, aunque su denominación puede variar según la metodología adoptada. 
 
-            .row.align-items-center.justify-content-center
-              .col-lg-12
-                .row.justify-content-center.mt-4
-                  .col-lg-12(data-aos="fade-down")
-                    .row.d-flex.align-items-center(data-aos="fade-right")
-                      .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                        figure.m-0.p-0.w-100.h-100.d-flex
-                          img(src='@/assets/curso/tema1/23.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
-                      .col-lg
-                        .row.align-items-start.mt-4
-                          .col-lg-2.mb-lg-0.mb-4
-                            figure(data-aos="fade-down")
-                              img(src='@/assets/curso/tema1/24.svg', style='width: 100px').m-auto
-                          
-                          .col
-                            p Cada fase cumple una función específica dentro del proceso global y permite organizar las actividades de manera lógica y progresiva. Comprender el ciclo de vida facilita la planificación adecuada de recursos, la definición de entregables y el establecimiento de mecanismos de control que garanticen el cumplimiento de los objetivos propuestos.
+    .row.bg-7.mt-0
+      .col-12.col-lg-11
+        .p-4.p-md-5
+          .row.align-items-center.p-4
+            .col-12
+              p El ciclo de vida del proyecto representa la secuencia estructurada de fases que atraviesa una iniciativa desde su concepción hasta su cierre. Generalmente comprende etapas como identificación, formulación, evaluación, ejecución, seguimiento y cierre, aunque su denominación puede variar según la metodología adoptada. 
 
-                          p.mt-4 Durante la fase de identificación y formulación se definen las necesidades que justifican el proyecto, se establecen los objetivos y se estructuran los estudios preliminares. Posteriormente, en la etapa de evaluación, se analiza su viabilidad técnica, financiera, económica y social. La fase de ejecución implica la puesta en marcha del plan definido, mientras que el seguimiento y control permiten monitorear el avance frente a cronogramas, presupuestos y metas establecidas. Finalmente, el cierre del proyecto consolida los resultados alcanzados y permite evaluar el cumplimiento de los objetivos iniciales, generando aprendizajes organizacionales para futuras iniciativas.
+              .row.align-items-center.justify-content-center
+                .col-lg-12
+                  .row.justify-content-center
+                    .col-lg-12(data-aos="fade-down")
+                      .row.d-flex.align-items-center(data-aos="fade-right")
+                        .col-lg-auto.pe-lg-0.mb-xl-0.d-flex.d-none.d-lg-block
+                          figure.m-0.p-0.w-100.h-100.d-flex
+                            img(src='@/assets/curso/tema1/23.svg', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                        .col-lg
+                          .row.align-items-start
+                            .col-lg-2.mb-lg-0
+                              figure(data-aos="fade-down")
+                                img(src='@/assets/curso/tema1/24.svg', style='width: 100px').m-auto
+                            
+                            .col
+                              p Cada fase cumple una función específica dentro del proceso global y permite organizar las actividades de manera lógica y progresiva. Comprender el ciclo de vida facilita la planificación adecuada de recursos, la definición de entregables y el establecimiento de mecanismos de control que garanticen el cumplimiento de los objetivos propuestos.
+
+                            p.mt-2.mb-0 Durante la fase de identificación y formulación se definen las necesidades que justifican el proyecto, se establecen los objetivos y se estructuran los estudios preliminares. Posteriormente, en la etapa de evaluación, se analiza su viabilidad técnica, financiera, económica y social. La fase de ejecución implica la puesta en marcha del plan definido, mientras que el seguimiento y control permiten monitorear el avance frente a cronogramas, presupuestos y metas establecidas. Finalmente, el cierre del proyecto consolida los resultados alcanzados y permite evaluar el cumplimiento de los objetivos iniciales, generando aprendizajes organizacionales para futuras iniciativas.
 
     .row.justify-content-center
       .col-10
@@ -368,9 +370,12 @@
     
         p.mt-3 La identificación de necesidades empresariales constituye el punto de partida para la formulación de un proyecto pertinente y viable. Toda iniciativa debe surgir de una situación real que evidencie una brecha entre el estado actual de la organización y el estado deseado. Estas necesidades pueden manifestarse como problemas operativos, baja rentabilidad, pérdida de participación en el mercado, ineficiencias en los procesos productivos o ausencia de innovación. Reconocer de manera objetiva estas situaciones permite justificar técnicamente la formulación del proyecto y orientar sus objetivos hacia la generación de valor.
 
-    .row.justify-content-center.mt-4
+    .row.justify-content-center.mt-2
       .col-lg-10
+
         p.mt-4 Para desarrollar un diagnóstico organizacional sólido, es necesario examinar de manera estructurada los factores internos y externos que inciden en la organización. Este análisis permite comprender la situación actual y establecer una base técnica para la formulación del proyecto. En este contexto, se presentan los siguientes elementos del diagnóstico:
+      
+      .col-lg-12
         .row.justify-content-center
           SlyderF(columnas="col-lg-6 col-xl-4")
             .tarjeta.bg-11.p-4

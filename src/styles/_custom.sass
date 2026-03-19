@@ -82,8 +82,31 @@ figcaption
   &-6
     background-image: url(../assets/curso/temas/bg4.png)
     background-repeat: no-repeat
-    background-size: cover
+    background-size: 100% 100%
+    background-position: center
+    // Margen para escritorio
     margin-inline: -6.2rem !important
+    
+    // Ajuste CRÍTICO para móviles
+    @media (max-width: $bp-max-md)
+      margin-inline: -1.5rem !important // Reduce el margen negativo para que no se salga
+      background-size: cover
+      padding-left: 1rem !important
+      padding-right: 1rem !important
+
+  &-7
+    background-image: url(../assets/curso/temas/bg4.png)
+    background-repeat: no-repeat
+    background-size: 100% 100% 
+    
+    margin-inline: -6.2rem !important
+    
+    
+    @media (max-width: $bp-max-md)
+      margin-inline: -1.5rem !important 
+      padding-left: 0 !important 
+      padding-right: 0 !important 
+      background-size: cover 
 
   
 .titulo-tres
@@ -212,7 +235,7 @@ figcaption
   width: 10px
   height: 9px
   flex-shrink: 0
-  margin-right: 10px
+  margin-right: 5px
   margin-top: 6px
 
 .icono-img::before 
@@ -529,7 +552,7 @@ figcaption
         background-color: $color-acento-botones
         color: textColor($color-acento-botones)
       .linea-tiempo-d__item__content
-        background-color: #FFFBE6 !important
+        background-color: #F8FFDF !important
         color: textColor($color-acento-contenido)
     .linea-tiempo-d__item__number
        background-color: $color-acento-botones

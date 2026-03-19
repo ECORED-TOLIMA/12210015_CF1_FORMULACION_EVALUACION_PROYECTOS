@@ -17,9 +17,9 @@
                   img(src='@/assets/curso/tema4/1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg
                 .row.justify-content-center
-                  .cajon.color2.p-4
+                  .cajon.color2.p-3
                     p El estudio de mercado constituye una etapa fundamental en la formulación de un proyecto, ya que permite analizar la viabilidad comercial de la iniciativa. Su propósito principal es determinar si existe una demanda real para el producto o servicio que se desea ofrecer y si el mercado dispone de la capacidad para absorber la propuesta.
-                p.mt-3 Mediante este análisis se identifican los clientes potenciales, se examinan sus necesidades y preferencias, y se evalúa el comportamiento de la competencia. Asimismo, se analiza la capacidad productiva del sector. Sin un estudio de mercado riguroso, las proyecciones financieras pueden resultar poco realistas y comprometer la sostenibilidad del proyecto.
+                p.mt-4 Mediante este análisis se identifican los clientes potenciales, se examinan sus necesidades y preferencias, y se evalúa el comportamiento de la competencia. Asimismo, se analiza la capacidad productiva del sector. Sin un estudio de mercado riguroso, las proyecciones financieras pueden resultar poco realistas y comprometer la sostenibilidad del proyecto.
     
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -31,7 +31,7 @@
     p.mt-4 En la fijación de precios, no basta con asignar un valor numérico al producto o servicio. Es necesario comprender los elementos que lo sustentan y le otorgan coherencia técnica y comercial. En este contexto, se analizan tres componentes fundamentales: los costos, que determinan el límite mínimo de sostenibilidad; la #[b percepción de valor], que influye en la disposición de pago del cliente; y las #[b condiciones del mercado], que enmarcan la estrategia dentro del entorno competitivo y económico. Estos factores permiten establecer un precio equilibrado y viable para el proyecto.
 
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -115,7 +115,7 @@
           .col-lg-12(data-aos="fade-down")
             .row.d-flex.align-items-center(data-aos="fade-right")
               .col-lg.p-4
-                p La estructura económica del mercado hace referencia a la forma en que interactúan los oferentes y demandantes dentro de un sector específico. Comprender esta estructura permite identificar si el mercado se comporta como competencia perfecta, competencia monopolística, oligopolio o monopolio, lo cual influye directamente en la estrategia del proyecto. Cada tipo de estructura determina condiciones diferentes en cuanto a precios, nivel de competencia, barreras de entrada y poder de negociación. Analizar estas características ayuda a definir cómo debe posicionarse el proyecto dentro del entorno competitivo.
+                p La estructura económica del mercado hace referencia a la forma en que interactúan los oferentes y demandantes dentro de un sector específico. Comprender esta estructura permite identificar si el mercado se comporta como competencia perfecta, #[b competencia monopolística], #[b oligopolio o monopolio], lo cual influye directamente en la estrategia del proyecto. Cada tipo de estructura determina condiciones diferentes en cuanto a precios, nivel de competencia, barreras de entrada y poder de negociación. Analizar estas características ayuda a definir cómo debe posicionarse el proyecto dentro del entorno competitivo.
                 .row.justify-content-center
                   .cajon.color2.p-4
                     p El análisis de la demanda permite estimar la cantidad de bienes o servicios que los consumidores están dispuestos a adquirir en un periodo determinado, según un precio específico y las condiciones del mercado.
@@ -210,7 +210,7 @@
     .row.justify-content-center.mt-4
       .col-10
         .titulo-sexto.bg-12.mb-3.mt-4
-          h5 Figura 4.
+          h5 Figura 3.
           span Dimensiones de análisis de la oferta
         figure
           img.d-none.d-md-block.m-auto(
@@ -293,34 +293,35 @@
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3. Plan de mercadeo y estrategias comerciales
     
-    .row.bg-6
-      .col-12
-        .p-5
-          .row.align-items-center.p-5
-            .row.align-items-start.mt-4
-              .col-lg-1.mb-lg-0.mb-4
-                figure(data-aos="fade-down")
-                  img(src='@/assets/curso/tema4/20.svg', style='width: 100px').m-auto
-              
-              .col
-                p El plan de mercadeo es el conjunto de estrategias y acciones que permiten posicionar el producto o servicio del proyecto en el mercado y alcanzar los objetivos comerciales establecidos. Este plan se construye a partir del análisis de la demanda y la oferta, y define cómo la empresa atraerá y mantendrá a sus clientes. Su finalidad es transformar el estudio de mercado en decisiones concretas que faciliten la generación de ingresos y la sostenibilidad del proyecto.
+    .row.bg-7.justify-content-center.py-4
+      .col-lg-11.col-12
+        
+        .row.align-items-center.p-4
+          .row.align-items-start
+            .col-lg-1.mb-lg-0.mb-4
+              figure(data-aos="fade-down")
+                img(src='@/assets/curso/tema4/20.svg', style='width: 100px').m-auto
+            
+            .col
+              p El plan de mercadeo es el conjunto de estrategias y acciones que permiten posicionar el producto o servicio del proyecto en el mercado y alcanzar los objetivos comerciales establecidos. Este plan se construye a partir del análisis de la demanda y la oferta, y define cómo la empresa atraerá y mantendrá a sus clientes. Su finalidad es transformar el estudio de mercado en decisiones concretas que faciliten la generación de ingresos y la sostenibilidad del proyecto.
 
-            .row.align-items-center.justify-content-center
-              .col-lg-10
-                .row.justify-content-center.mt-4
-                  .col-lg-12(data-aos="fade-down")
-                    .row.d-flex.align-items-center(data-aos="fade-right")
-                      .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
-                        figure.m-0.p-0.w-100.h-100.d-flex
-                          img(src='@/assets/curso/tema4/21.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
-                      .col-lg
-                        .row.align-items-start.mt-4
-                          p Dentro del plan de mercadeo se desarrollan estrategias relacionadas con el producto, el precio, la promoción y la distribución, conocidas comúnmente como las variables del #[i #[b marketing]] #[b mix]. El producto debe responder a las necesidades del cliente; el precio debe ser competitivo y coherente con los costos y el valor percibido; la promoción define cómo se comunicará la oferta al mercado; y la distribución establece los canales mediante los cuales el producto llegará al consumidor final. Estas decisiones deben estar alineadas con la estructura del mercado y con la población objetivo previamente identificada.
+          .row.align-items-center.justify-content-center
+            .col-lg-10
+              .row.justify-content-center
+                .col-lg-12(data-aos="fade-down")
+                  .row.d-flex.align-items-center(data-aos="fade-right")
+                    .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                      figure.m-0.p-0.w-100.h-100.d-flex
+                        img(src='@/assets/curso/tema4/21.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                    .col-lg
+                      .row.align-items-start
+                  
+                        p Dentro del plan de mercadeo se desarrollan estrategias relacionadas con el producto, el precio, la promoción y la distribución, conocidas comúnmente como las variables del #[i #[b marketing]] #[b mix]. El producto debe responder a las necesidades del cliente; el precio debe ser competitivo y coherente con los costos y el valor percibido; la promoción define cómo se comunicará la oferta al mercado; y la distribución establece los canales mediante los cuales el producto llegará al consumidor final. Estas decisiones deben estar alineadas con la estructura del mercado y con la población objetivo previamente identificada.
 
-                          p Las estrategias comerciales permiten orientar el posicionamiento del proyecto en el mercado y definir la forma en que competirá frente a otros oferentes. Entre las principales alternativas estratégicas se encuentran:
+                        p Las estrategias comerciales permiten orientar el posicionamiento del proyecto en el mercado y definir la forma en que competirá frente a otros oferentes. Entre las principales alternativas estratégicas se encuentran:
 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       //-Tarjeta 1
       .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta-avatar
@@ -357,20 +358,20 @@
                     p.mb-0 #[b Enfoque de mercado]
                     p.mt-2 Implica dirigir la oferta hacia un segmento específico con necesidades claramente identificadas.
 
-    p.mt-4 Cuando el plan de mercadeo se estructura de manera coherente y alineada con el análisis del mercado, orienta adecuadamente las decisiones comerciales, fortalece la proyección de ventas y disminuye el riesgo asociado a la operación. De esta manera, contribuye de forma directa a la sostenibilidad y viabilidad financiera del proyecto.
+    p.mt-4.mb-4 Cuando el plan de mercadeo se estructura de manera coherente y alineada con el análisis del mercado, orienta adecuadamente las decisiones comerciales, fortalece la proyección de ventas y disminuye el riesgo asociado a la operación. De esta manera, contribuye de forma directa a la sostenibilidad y viabilidad financiera del proyecto.
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
           .col-lg-12
             .cajon.color4.p-4
-              p A continuación, se presenta una tabla que permite comprender cómo se aplican las variables del #[b marketing mix] en un proyecto empresarial. En ella se explican los componentes #[b producto, precio, promoción y plaza], así como su definición, las preguntas orientadoras para su análisis y un ejemplo práctico que facilita su interpretación y aplicación.
+              p A continuación, se presenta una tabla que permite comprender cómo se aplican las variables del #[i #[b marketing mix]] en un proyecto empresarial. En ella se explican los componentes #[b producto, precio, promoción y plaza], así como su definición, las preguntas orientadoras para su análisis y un ejemplo práctico que facilita su interpretación y aplicación.
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-4
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 6.
-          span Marketing mix aplicado a un proyecto empresarial
+          span #[i Marketing mix] aplicado a un proyecto empresarial
 
         .tabla-a.color-acento-contenido
           table
