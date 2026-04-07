@@ -132,7 +132,7 @@
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema3/13.svg',
-            alt='Figura 3. Factores estratégicos para la localización del proyecto. Infografía que presenta seis factores estratégicos para la localización del proyecto: acceso a clientes, disponibilidad de materias primas, infraestructura, costos de transporte, normatividad vigente y condiciones del mercado laboral, organizados en bloques visuales con iconos representativos.'
+            alt=''
           )
       
       .row.justify-content-center.mt-4

@@ -116,7 +116,7 @@
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema1/13.svg',
-            alt='La imagen representa una diana con flechas de distintos colores apuntando al centro, que ilustra la convergencia de los elementos fundamentales que definen un proyecto: el resultado único como objetivo final, el análisis riguroso como base de la viabilidad, la viabilidad y pertinencia como justificación organizacional, el carácter temporal como condición de duración limitada y el contexto organizacional como entorno en el que opera la iniciativa. La figura destaca que todos estos atributos deben apuntar de manera simultánea y articulada hacia el logro del objetivo propuesto.'
+            alt=''
           )
       
         p.mt-4 Entre las principales características de un proyecto se encuentran su temporalidad, su delimitación en alcance, la existencia de objetivos claramente definidos, la asignación de recursos limitados y la necesidad de planificación estructurada. Además, todo proyecto implica un nivel de incertidumbre asociado a variables del entorno, del mercado y de la disponibilidad de recursos, lo cual exige la aplicación de metodologías técnicas para su estructuración.
@@ -295,7 +295,7 @@
                 )
                 img.d-block.d-md-none.m-auto(
                   src='@/assets/curso/tema1/27.svg',
-                  alt='La imagen representa una escalera ascendente de seis peldaños que ilustra el proceso progresivo para gestionar las partes interesadas en un proyecto. El recorrido inicia con la identificación de las partes interesadas, continúa con el análisis de sus expectativas y la gestión de su participación, avanza hacia la reducción de riesgos y el fortalecimiento de la aceptación, y culmina con el aseguramiento de la sostenibilidad del proyecto. La figura destaca que cada etapa constituye una condición necesaria para avanzar a la siguiente y garantizar el éxito de la iniciativa a largo plazo.'
+                  alt=''
                 )
 
     p.mt-4 Una vez identificadas las partes interesadas y comprendida la relevancia de su gestión para la sostenibilidad del proyecto, corresponde analizar las etapas que estructuran su desarrollo. El ciclo de vida del proyecto organiza una secuencia lógica y articulada que orienta la ejecución desde la identificación de la necesidad hasta el cierre formal de la iniciativa. Esta secuencia permite planificar, estructurar, evaluar y controlar cada fase con criterios técnicos claramente definidos, asegurando coherencia entre los objetivos, los recursos y los resultados esperados. En este contexto, las etapas que conforman el ciclo de vida del proyecto son las siguientes:

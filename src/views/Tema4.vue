@@ -189,7 +189,7 @@
                 p El análisis de la estructura de mercado permite identificar el nivel de competencia y las condiciones que influyen en la estrategia del proyecto. Comprender estas dinámicas facilita la toma de decisiones comerciales y fortalece la viabilidad del proyecto en el entorno económico.
 
     separador
-    #t_4_3.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2. Estudio de oferta y proyección del mercado
 
     .row.align-items-center.justify-content-center
@@ -210,7 +210,7 @@
     .row.justify-content-center.mt-4
       .col-10
         .titulo-sexto.bg-12.mb-3.mt-4
-          h5 Figura 3.
+          h5 Figura 4.
           span Dimensiones de análisis de la oferta
         figure
           img.d-none.d-md-block.m-auto(
@@ -219,7 +219,7 @@
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema4/14.svg',
-            alt='Figura 4. Dimensiones de análisis de la oferta. Esquema que presenta cinco aspectos del análisis de la oferta: competidores, participación en el mercado, características del producto, ventajas competitivas y oportunidades de mercado, los cuales permiten comprender el entorno competitivo y orientar la estrategia del proyecto.'
+            alt=''
           )
       
         p.mt-4 Además de identificar competidores, el estudio de oferta evalúa variables como capacidad instalada, niveles de producción, estructura de costos y estrategias comerciales utilizadas por las empresas del sector. Esta información permite comparar la propuesta del proyecto frente a lo que ya existe y definir estrategias de diferenciación, innovación o mejora en calidad y servicio. Una evaluación adecuada de la oferta ayuda a evitar errores como subestimar la competencia o sobreestimar la capacidad de penetración del proyecto en el mercado.

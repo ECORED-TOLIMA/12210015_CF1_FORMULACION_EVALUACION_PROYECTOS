@@ -27,22 +27,27 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: 'Opción a)\tSe ejecuta de manera permanente.',
+          texto: 'Un proyecto se diferencia de una actividad operativa porque:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
+              texto: 'Se ejecuta de manera permanente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
               texto: 'Tiene carácter temporal y resultado único.',
               esCorrecta: true,
             },
             {
-              id: 'b',
+              id: 'c',
               texto: 'No requiere planificación.',
               esCorrecta: false,
             },
             {
-              id: 'c',
+              id: 'd',
               texto: 'No involucra recursos financieros.',
               esCorrecta: false,
             },

@@ -124,16 +124,16 @@
             .cajon.color2.p-4
               p Con el fin de comprender de manera estructurada cómo se organiza el proceso productivo, se presenta a continuación su ciclo operativo. Esta representación permite visualizar las etapas desde la definición de fases y asignación de recursos hasta la optimización y el cumplimiento de las expectativas del cliente.
         .titulo-sexto.bg-12.mb-3.mt-4
-          h5 Figura 4.
+          h5 Figura 5.
           span Ciclo del proceso productivo
         figure
           img.d-none.d-md-block.m-auto(
             src='@/assets/curso/tema5/5.png',
-            alt='Figura 4. Ciclo del proceso productivo. Esquema que muestra las etapas del proceso productivo organizadas de forma cíclica, desde la entrada de insumos hasta la obtención del producto final y su control de calidad.'
+            alt='Figura 5. Ciclo del proceso productivo. Esquema que muestra las etapas del proceso productivo organizadas de forma cíclica, desde la entrada de insumos hasta la obtención del producto final y su control de calidad.'
           )
           img.d-block.d-md-none.m-auto(
             src='@/assets/curso/tema5/6.png',
-            alt='Figura 4. Ciclo del proceso productivo. Esquema que muestra las etapas del proceso productivo organizadas de forma cíclica, desde la entrada de insumos hasta la obtención del producto final y su control de calidad.'
+            alt=''
           )
 
     p.mt-4 Por su parte, la distribución en planta hace referencia a la organización física de los espacios, equipos y áreas de trabajo dentro de la infraestructura del proyecto. Una adecuada distribución permite mejorar el flujo de materiales, reducir tiempos muertos, evitar desplazamientos innecesarios y aumentar la productividad. Existen diferentes tipos de distribución, como la distribución por procesos, por producto o por posición fija, y su elección depende del tipo de actividad que desarrolle la empresa. La correcta planificación del espacio físico contribuye a mejorar la eficiencia operativa y a reducir costos.
